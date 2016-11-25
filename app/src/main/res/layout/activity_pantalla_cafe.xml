@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gustavodelosriosalatorregmail.proyectofinal2.PantallaCafe"
+    android:background="#1b2477">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/degas"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CAFETERIA"
+        android:id="@+id/textView50"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_alignRight="@+id/imageButton3"
+        android:layout_alignEnd="@+id/imageButton3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WIP"
+        android:id="@+id/textView51"
+        android:layout_below="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:textColor="#ffffff"
+        android:textSize="70dp" />
+</RelativeLayout>
